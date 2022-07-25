@@ -37,7 +37,7 @@ class AuthMethods {
           file != null) {
         UserCredential cred = await _auth.createUserWithEmailAndPassword(
             email: email, password: password);
-        String photoUrl = await StorgeMethods()
+        String photoUrl = await StorageMethods()
             .uploadImageToStorage("ProfilePics", file, false);
 
         log(cred.user!.uid.toString());

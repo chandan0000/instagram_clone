@@ -36,6 +36,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Instagram Clone',
         theme: ThemeData.dark().copyWith(
+          // useMaterial3: true,
           scaffoldBackgroundColor: mobileBackgroundColor,
         ),
         // home: SignUpScreen(),
